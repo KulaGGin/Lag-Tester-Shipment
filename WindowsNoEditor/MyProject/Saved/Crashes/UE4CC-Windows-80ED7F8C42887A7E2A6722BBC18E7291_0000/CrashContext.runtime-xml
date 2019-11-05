@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>B0AAB88A47B5690062A8679992DF1D2A</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-80ED7F8C42887A7E2A6722BBC18E7291_0000</CrashGUID>
+<ProcessId>10232</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>true</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<SecondsSinceStart>0</SecondsSinceStart>
+<GameName>UE4-MyProject</GameName>
+<ExecutableName>MyProject</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.22-CL-7053642-Win64-Development</Symbols>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.22.3-7053642+++UE4+Release-4.22</EngineVersion>
+<CommandLine> MyProject</CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<AppDefaultLocale>en-GB</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.22-CL-7053642</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/UE4 Projects/Lag Tester Shipment/WindowsNoEditor/MyProject/Binaries/Win64/</BaseDir>
+<RootDir>C:/UE4 Projects/Lag Tester Shipment/WindowsNoEditor/</RootDir>
+<MachineId>80BF78114F87568C8114AF9B1B62B947</MachineId>
+<LoginId>80bf78114f87568c8114af9b1b62b947</LoginId>
+<EpicAccountId>e00bac64059d46b5a37e8758277b7357</EpicAccountId>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+MyProject  0x0000000024990000 + 4347b33 
+MyProject  0x0000000024990000 + 991044  
+MyProject  0x0000000024990000 + 979f3b  
+MyProject  0x0000000024990000 + 97a057  
+MyProject  0x0000000024990000 + 847e7d  
+MyProject  0x0000000024990000 + 85b9b1  
+MyProject  0x0000000024990000 + 866ae0  
+MyProject  0x0000000024990000 + 3038fd7 
+MyProject  0x0000000024990000 + 302437a 
+MyProject  0x0000000024990000 + 338fc8  
+MyProject  0x0000000024990000 + 332eb6  
+MyProject  0x0000000024990000 + 33312a  
+MyProject  0x0000000024990000 + 3413e3  
+MyProject  0x0000000024990000 + 4230f52 
+KERNEL32   0x00000000bc330000 + 11fe4   
+ntdll      0x00000000bed10000 + 6ef91   
+</PCallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Misc\ConfigCacheIni.cpp] [Line: 3750]
+Scalability.ini can only set ECVF_Scalability console variables (&apos;r.OneFrameThreadLag&apos;=&apos;0&apos; is ignored)
+Stack: 
+0x00007ff728cd7b33 MyProject.exe!UnknownFunction []
+0x00007ff725321044 MyProject.exe!UnknownFunction []
+0x00007ff725309f3b MyProject.exe!UnknownFunction []
+0x00007ff72530a057 MyProject.exe!UnknownFunction []
+0x00007ff7251d7e7d MyProject.exe!UnknownFunction []
+0x00007ff7251eb9b1 MyProject.exe!UnknownFunction []
+0x00007ff7251f6ae0 MyProject.exe!UnknownFunction []
+0x00007ff7279c8fd7 MyProject.exe!UnknownFunction []
+0x00007ff7279b437a MyProject.exe!UnknownFunction []
+0x00007ff724cc8fc8 MyProject.exe!UnknownFunction []
+0x00007ff724cc2eb6 MyProject.exe!UnknownFunction []
+0x00007ff724cc312a MyProject.exe!UnknownFunction []
+0x00007ff724cd13e3 MyProject.exe!UnknownFunction []
+0x00007ff728bc0f52 MyProject.exe!UnknownFunction []
+0x00007ffebc341fe4 KERNEL32.DLL!UnknownFunction []
+0x00007ffebed7ef91 ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>AMD Radeon R9 200 Series</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 1709)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<GameStateName></GameStateName>
+<MemoryStats.TotalPhysical>8529010688</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>3071782912</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140737160507392</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>57286656</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>57286656</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>35958784</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>35958784</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+</EngineData>
+</FGenericCrashContext>
